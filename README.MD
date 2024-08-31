@@ -32,9 +32,29 @@ pip install -r requirements.txt
   ```bash
   jupyter notebook eda_visualization.ipynb
 
-## Key Findings
+#Instructure Clone This Repository
+git clone <your-repository-url>
+cd python-data-science-eda-visualization\
 
-![Price Distribution by Currency](docs/price_distribution.png)
+# Create and activate a virtual environment:
+python -m venv venv
+source venv/bin/activate  # For Windows use: venv\Scripts\activate
 
-The boxplot above shows that courses priced in USD tend to have a higher price range compared to other currencies.
+pip install -r requirements.txt
+
+#Activate your virtual environment:
+
+bash
+Copy code
+source venv/bin/activate  # For Windows use: venv\Scripts\activate
+Navigate to the notebooks directory:
+
+bash
+Copy code
+cd notebooks
+Run Jupyter Notebook:
+
+bash
+Copy code
+jupyter notebook eda_visualization.ipynb
 
